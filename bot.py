@@ -61,4 +61,4 @@ async def desmutear(ctx):
     for member in list(client.get_channel(leader.voice.channel.id).members):
         await member.edit(mute = False)
 
-client.run('Aqui debe ir el tocken generado de discord dev')
+client.run('Aqui debe ir el token generado de discord dev')
